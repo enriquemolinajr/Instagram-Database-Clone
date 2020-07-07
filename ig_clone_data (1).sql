@@ -1,6 +1,5 @@
-DROP DATABASE IF EXISTS ig_clone;
-CREATE DATABASE ig_clone;
-USE ig_clone; 
+CREATE DATABASE instagram_clone;
+USE instagram_clone;
 
 CREATE TABLE users (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
